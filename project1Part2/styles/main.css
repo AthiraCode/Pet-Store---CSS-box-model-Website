@@ -1,0 +1,56 @@
+body{
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 400%;
+}
+
+h2 {
+    font-size: 250%;
+}
+
+h3 {
+    font-size: 150%;
+}
+
+.common-pets-heading:first-letter {
+    font-size: 150%;
+}
+
+.common-pets-heading {
+    color: blue; 
+    font-style: italic;
+    text-shadow: 2px 2px 4px #FFD700; 
+}
+
+
+header img{
+    float: left;
+    width: 170px;
+    height: auto;
+}
+
+main h2 {
+    margin-left: 30px; 
+}
+
+
+a {
+    color: orange;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    color: green;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    font-size: 70%;
+}

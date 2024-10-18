@@ -1,0 +1,84 @@
+html{
+    background-image: url('../images/background.jpg');
+    background-repeat: repeat;
+}
+
+body{
+    font-family: sans-serif;
+    width: 800px;
+    background-color: white;
+    border: 5px solid blue;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 400%;
+}
+
+h2 {
+    font-size: 250%;
+}
+
+h3 {
+    font-size: 150%;
+}
+
+.common-pets-heading:first-letter {
+    font-size: 150%;
+}
+
+.common-pets-heading {
+    color: inherit; 
+    font-style: normal; 
+    text-shadow: none; 
+}
+
+header img{
+    float: left;
+    margin-right: 30px;
+    margin-top: 50px;
+    width: 170px;
+    height: auto;
+}
+
+main h2 {
+    margin-left: 30px; 
+}
+
+main {
+    padding: 20px; 
+    margin-bottom: 20px; 
+}
+
+
+header {
+    background: linear-gradient(45deg, white, #00bfae 75%, black); 
+    border-bottom:solid blue;
+    padding: 20px 30px;
+}
+
+footer{
+    background: linear-gradient(45deg, black, #00bfae 75%, white); /* 45-degree gradient from black to green-blue to white */
+    border-top: solid blue;
+    padding: 20px;
+}
+
+a {
+    color: orange;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    color: green;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    font-size: 70%;
+}
